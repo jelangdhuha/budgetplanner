@@ -91,7 +91,7 @@
             </li>
           </ul>
           <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <center><a href="#" class="btn btn-danger">Get Started</a></center>
+          <center><a href="{{ route('dashboard') }}" class="btn btn-danger">Get Started</a></center>
         </div>
       </div>
     </div>
