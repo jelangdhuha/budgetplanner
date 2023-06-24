@@ -23,6 +23,6 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('langganan');
-    })->name('langganan');
+        return view('dashboard');
+    })->name('dashboard');
 });
