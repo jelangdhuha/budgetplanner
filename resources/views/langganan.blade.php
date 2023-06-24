@@ -59,14 +59,14 @@
             <a class="nav-link active" aria-current="page" href="#"><h4 class="text-white mt-1 budget">Budget Planner</h4></a>
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
      </div>
-     <div class="me-4"><a href="#"><img src="Ellipse.png" alt=""></a></div>
+     
    </nav>
 
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-12 text-center mt-5 py-0 plan">
-            <h3>Choose your subscription plan</h3>
+            <h3>Choose your subscription plan {{ Auth::user()->name }}</h3>
         </div>
     </div>
 </div>
