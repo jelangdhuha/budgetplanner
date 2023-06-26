@@ -14,6 +14,8 @@
         body{
             background-image: url("login.png");
             background-color: rgba(203, 171, 171, 1);
+            background-repeat: no-repeat;
+            background-size: cover;
             
         }
         .navbar{

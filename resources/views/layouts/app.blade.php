@@ -18,6 +18,7 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
+
         <x-banner />
 
         <div class="min-h-screen bg-gray-100">
@@ -33,9 +34,7 @@
             @endif
 
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
+            <h1 class="text-center content" >Content Section</h1>
         </div>
 
         @stack('modals')
