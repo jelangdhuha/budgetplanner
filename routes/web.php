@@ -31,6 +31,10 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
+    Route::get('/myplan', function () {
+        return view('myplan');
+    })->name('myplan');
+
 
     
 });

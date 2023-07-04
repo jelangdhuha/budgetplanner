@@ -18,7 +18,11 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
-
+<style>
+    body{
+        background-color: rgba(203, 171, 171, 1);
+    }
+</style>
         <x-banner />
 
         <div class="min-h-screen bg-gray-100">
@@ -34,7 +38,10 @@
             @endif
 
             <!-- Page Content -->
-            <h1 class="text-center content" >Content Section</h1>
+
+            
+               {{$slot}}
+            
         </div>
 
         @stack('modals')
