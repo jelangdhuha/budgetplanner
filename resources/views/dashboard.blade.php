@@ -2,7 +2,7 @@
     
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            Halo {{ Auth::user()->name }}
+            Halo {{ Auth::user()->name }} selamat datang ^_^
         </h2>
     </x-slot>
 

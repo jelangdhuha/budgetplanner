@@ -43,7 +43,7 @@
      
     
       <script>
-        const endpoint = "https://newsapi.org/v2/everything?q=tesla&from=2023-06-04&sortBy=publishedAt&apiKey=8480b1f893d64ff78b3b06a7b8d908a6";
+        const endpoint = "https://newsapi.org/v2/everything?q=bitcoin&apiKey=8480b1f893d64ff78b3b06a7b8d908a6";
     
         async function hitAPI() {
           try {
