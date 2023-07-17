@@ -4,6 +4,9 @@
     <head>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
       <style>
+        .btn{
+          background-color: rgba(203, 171, 171, 1);
+        }
         .card {
           height: 100%;
         }
@@ -77,7 +80,7 @@
                 <h5 class="card-title">${article.title}</h5>
                 <p class="card-text">${article.description}</p>
                 <div class="card-footer">
-                  <a href="${article.url}" class="btn btn-primary">Baca selengkapnya</a>
+                  <a href="${article.url}" class="btn">Baca selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -89,6 +92,10 @@
     
         hitAPI();
       </script>
+
+      
+
+
     </body>
     </html>
 </x-app-layout>

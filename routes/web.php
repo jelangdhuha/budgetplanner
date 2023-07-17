@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TransactionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,16 @@ Route::middleware([
     Route::get('/myplan', function () {
         return view('myplan');
     })->name('myplan');
+
+    // Route::get('/transaction', function () {
+    //     return view('transactions');
+    // })->name('transactions');
+    Route::get('/transaction/create', function () {
+        return view('transactions');
+    })->name('transactions');
+
+    Route::get('/transactions/create', [TransactionController::class, 'create'])->name('transactions.create');
+    Route::post('/transactions', [TransactionController::class, 'store'])->name('transactions.store');
 
 
     
